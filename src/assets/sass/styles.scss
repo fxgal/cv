@@ -268,32 +268,25 @@ button:focus,
 .header {
   padding: 20px !important;
   margin: 0;
-  position: relative;
+  position: sticky;
+  .content {
+    width: 100%;
+    margin: 0 auto;
+    h1 {
+      line-height: 1;
+      margin: 0 0 5px;
+    }
+    .about-text {
+      margin: 10px 0;
+    }
+  }
 }
-
-.header .profile-img {
-  margin-bottom: 50px;
+.profile-img {
+  display: flex;
+  margin-bottom: 20px;
 }
-
-.header .content-wrapper {
-}
-
-.header .content {
-  width: 100%;
-  margin: 0 auto;
-}
-
-.header .content h1 {
-  line-height: 1;
-  margin: 0 0 5px;
-}
-
-.header .content .lead {
+.header .content .header .content .lead {
   font-size: 18px;
-}
-
-.header .content .about-text {
-  margin: 10px 0;
 }
 
 .header .btn {
@@ -332,27 +325,27 @@ button:focus,
   margin: 20px 0;
   padding: 0;
   display: block;
-}
-
-.social-icon li {
-  display: inline-block;
-  margin: 0 2px;
-}
-
-.social-icon li a {
-  display: block;
-  font-size: 12px;
-  color: #333333;
-  width: 34px;
-  height: 34px;
-  line-height: 33px;
-  text-align: center;
-  border-radius: 2px;
-  border: 2px solid #eeeeee;
-}
-
-.social-icon li a:hover {
-  border-color: #cccccc;
+  li {
+    display: inline-block;
+    margin: 0 2px;
+    a {
+      display: block;
+      font-size: 12px;
+      color: $wargin-color !important;
+      width: 34px;
+      height: 34px;
+      line-height: 33px;
+      text-align: center;
+      border-radius: 2px;
+      border: 2px solid #eeeeee;
+      &:hover {
+        border-color: #cccccc;
+      }
+      &:visited {
+        border-color: #cccccc;
+      }
+    }
+  }
 }
 
 /*-------------------
@@ -389,7 +382,7 @@ button:focus,
 }
 
 .progress-item .progress-bar {
-  background-color: #ffc107;
+  background-color: $wargin-color;
   box-shadow: none;
   text-align: right;
 }
@@ -623,4 +616,6 @@ h2 {
 }
 .container {
   padding: 0px !important;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
