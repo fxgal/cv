@@ -331,7 +331,7 @@ button:focus,
     a {
       display: block;
       font-size: 12px;
-      color: $wargin-color !important;
+      color: $warning-color !important;
       width: 34px;
       height: 34px;
       line-height: 33px;
@@ -382,7 +382,7 @@ button:focus,
 }
 
 .progress-item .progress-bar {
-  background-color: $wargin-color;
+  background-color: $warning-color;
   box-shadow: none;
   text-align: right;
 }
@@ -618,4 +618,8 @@ h2 {
   padding: 0px !important;
   margin-top: 0px;
   margin-bottom: 0px;
+}
+a{
+  text-decoration: none !important;
+  color: $warning-color !important;
 }
