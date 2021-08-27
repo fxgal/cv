@@ -26,21 +26,19 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <div id="main-wrapper">
-        {/* <div id="preloader">
-          <div id="status">
-            <div className="status-mes"></div>
-          </div>
-        </div> */}
-        <div className="columns-block container">
-          <div className="left-col-block blocks">
-            <Sidebar />
-          </div>
-          <div className="right-col-block blocks">
-            <div className="theiaStickySidebar">
-              {/* {children} */}
-              <Footer />
-            </div>
+      <div id="preloader">
+        <div id="status">
+          <div className="status-mes"></div>
+        </div>
+      </div>
+      <div className="columns-block container">
+        <div className="left-col-block blocks">
+          <Sidebar />
+        </div>
+        <div className="right-col-block blocks">
+          <div className="theiaStickySidebar">
+            {children}
+            <Footer />
           </div>
         </div>
       </div>

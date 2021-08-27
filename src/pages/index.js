@@ -11,7 +11,7 @@ const IndexPage = () => (
     <Layout>
       <section className="expertise-wrapper section-wrapper gray-bg">
         <div className="container-fluid">
-          <div className="row" style={{ marginTop: "20px" }}>
+          <div className="row">
             <div className="title col-12">
               <h1 className="header-title">
                 Félix Galindo <small>Web Developer Full Stack</small>
