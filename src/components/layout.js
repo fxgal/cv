@@ -31,11 +31,11 @@ const Layout = ({ children }) => {
           <div className="status-mes"></div>
         </div>
       </div>
-      <div className="columns-block container">
-        <div className="left-col-block blocks">
+      <div className="row">
+        <div className="col-sm-12 col-md-4 left-col-block blocks">
           <Sidebar />
         </div>
-        <div className="right-col-block blocks">
+        <div className="col-sm-12 col-md-8 right-col-block blocks">
           <div className="theiaStickySidebar">
             {children}
             <Footer />
