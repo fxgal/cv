@@ -27,14 +27,16 @@ function Seo({ description, lang, meta, title }) {
 
   const metaDescription = description || site.siteMetadata.description
   const defaultTitle = site.siteMetadata?.title
+  const defaultAuthor = site.siteMetadata?.author
 
   return (
     <Helmet
       htmlAttributes={{
         lang,
       }}
-      title={title}
+      title={`Félix Galindo | ` + title}
       titleTemplate={defaultTitle ? `%s | ${defaultTitle}` : null}
+      author={defaultAuthor}
       meta={[
         {
           name: `description`,
@@ -74,7 +76,7 @@ function Seo({ description, lang, meta, title }) {
 }
 
 Seo.defaultProps = {
-  lang: `en`,
+  lang: `es`,
   meta: [],
   description: ``,
 }
