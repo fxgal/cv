@@ -31,7 +31,7 @@ const Layout = ({ children }) => {
           <div className="status-mes"></div>
         </div>
       </div>
-      <div className="row">
+      <div className="row main-container">
         <div className="col-sm-12 col-md-4 left-col-block blocks">
           <Sidebar />
         </div>
