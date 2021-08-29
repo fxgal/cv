@@ -2,6 +2,39 @@
   display: flex;
 }
 
+.right-col {
+  overflow: auto;
+  margin-top: 100px;
+  background-color: rgba($color: $white-color, $alpha: 0.8);
+  box-shadow: 2px 0px 5px lightgray;
+}
+
+.left-col {
+  background-color: $red-color;
+  color: $white-color;
+  h1 {
+    color: $white-color;
+  }
+}
+
+.navigator{
+  position: relative;
+  margin: 40px 0px 20px 0px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  ul {
+    display: flex;
+    li{
+      list-style: none;
+      color: $red-color;
+      padding: 5px;
+    }
+    li:hover{
+      color: $red-color;
+    }
+  }
+}
 @media (min-width: 768px) {
   .main-container {
     padding: 0px 120px 0px 120px;
