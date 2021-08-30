@@ -1,17 +1,16 @@
-import React, { useState } from "react"
+import React from "react"
+import routes from "../../data/routes.json"
 
 const Navigator = () => {
-  const [hover, setHover] = useState(null)
-  const items = ["A", "A", "A", "A", "A", "A", "A", "A", "A", "A", "A", "A"]
   return (
     <div className="navigator">
-      <ul>
-        {items.map((item, i) => (
-          <li key={i}>
-            <i class="far fa-circle"></i>
-          </li>
-        ))}
-      </ul>
+      {routes?.map(item => (
+        <a
+          className="far fa-circle nav-item"
+          key={item.key}
+          href={`#${item.page}`}
+        ></a>
+      ))}
     </div>
   )
 }

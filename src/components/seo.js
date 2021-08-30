@@ -93,7 +93,11 @@ function Seo({ description, lang, meta, title }) {
         integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
         crossorigin="anonymous"
       ></script>
-      <body id="page-top" data-spy="scroll" data-target=".navbar" />
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      />
+      {/* <body id="page-top" data-spy="scroll" data-target=".navbar" /> */}
     </Helmet>
   )
 }

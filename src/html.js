@@ -19,6 +19,7 @@ export default function HTML(props) {
         <div
           key={`body`}
           id="main-wrapper"
+          className="container"
           dangerouslySetInnerHTML={{ __html: props.body }}
         />
         {props.postBodyComponents}

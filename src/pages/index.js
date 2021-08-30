@@ -4,6 +4,12 @@ import * as React from "react"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import Academy from "./Academy"
+import Aptitudes from "./Aptitudes"
+import Contacts from "./Contacts"
+import Skills from "./Skills"
+import Studies from "./Studies"
+import Works from "./Works"
 
 const IndexPage = () => (
   <>
@@ -21,7 +27,9 @@ const IndexPage = () => (
           <div className="col-md-12">
             <div className="section-title">
               <h2>
-                <i className="fas fa-user"></i> Perfil
+                <a name="Profile">
+                  <i className="fas fa-user"></i> Perfil
+                </a>
               </h2>
             </div>
           </div>
@@ -164,6 +172,12 @@ const IndexPage = () => (
           </div>
         </div>
       </div>
+      <Academy />
+      <Aptitudes />
+      <Skills />
+      <Studies />
+      <Works />
+      <Contacts />
     </Layout>
   </>
 )

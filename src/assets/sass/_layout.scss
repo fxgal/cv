@@ -3,7 +3,6 @@
 }
 
 .right-col {
-  overflow: auto;
   margin-top: 100px;
   background-color: rgba($color: $white-color, $alpha: 0.8);
   box-shadow: 2px 0px 5px lightgray;
@@ -17,27 +16,34 @@
   }
 }
 
-.navigator{
-  position: relative;
+.navigator {
+  position: sticky;
   margin: 40px 0px 20px 0px;
   width: 100%;
   display: flex;
   justify-content: center;
-  ul {
-    display: flex;
-    li{
-      list-style: none;
-      color: $red-color;
-      padding: 5px;
-    }
-    li:hover{
-      color: $red-color;
-    }
+  .nav-item {
+    list-style: none;
+    color: $red-color;
+    padding: 5px;
+  }
+  .nav-item:hover {
+    animation: rubberBand 1s;
   }
 }
 @media (min-width: 768px) {
   .main-container {
-    padding: 0px 120px 0px 120px;
+    padding: 0px 50px 0px 50px;
     height: 100vh;
+  }
+  .right-col {
+    overflow-x: auto;
+    height: 100vh;
+  }
+}
+@media (max-width: 767px) {
+  .right-col {
+    overflow: hidden;
+    height: auto;
   }
 }

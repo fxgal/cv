@@ -12,7 +12,6 @@ import PropTypes from "prop-types"
 // import Header from "./header"
 import Footer from "./Footer/Footer"
 import Sidebar from "./Sidebar/Sidebar"
-import Navigator from "./Navigator/Navigator"
 
 const Layout = ({ children }) => {
   // const data = useStaticQuery(graphql`
@@ -37,7 +36,6 @@ const Layout = ({ children }) => {
           <Sidebar />
         </div>
         <div className="col-sm-12 col-md-8 right-col">
-          <Navigator />
           <div>
             {children}
             <Footer />

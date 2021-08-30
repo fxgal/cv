@@ -1,5 +1,6 @@
 import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
+import Navigator from "../Navigator/Navigator"
 
 const Sidebar = () => {
   return (
@@ -80,6 +81,7 @@ const Sidebar = () => {
           </li>
         </ul>
       </div>
+      <Navigator />
     </header>
   )
 }

@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Profile",
+    "key": "profile",
+    "page": "index"
+  },
+  {
+    "name": "Skills",
+    "key": "skills",
+    "page": "skills"
+  },
+  {
+    "name": "Aptitudes",
+    "key": "aptitudes",
+    "page": "aptitudes"
+  },
+  {
+    "name": "Works",
+    "key": "works",
+    "page": "works"
+  },
+  {
+    "name": "Studies",
+    "key": "studies",
+    "page": "studies"
+  },
+  {
+    "name": "Academy",
+    "key": "academy",
+    "page": "academy"
+  },
+  {
+    "name": "Contact",
+    "key": "contact",
+    "page": "contact"
+  }
+]
