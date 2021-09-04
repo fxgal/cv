@@ -368,12 +368,12 @@ button:focus,
 
 .progress-item {
   position: relative;
+  width: 100%;
 }
 
 .progress-item .progress-title {
-  font-size: 15px;
-  font-weight: 400;
-  display: inline-block;
+  font-size: 1.5rem;
+  font-weight: 600;
   margin-bottom: 5px;
 }
 

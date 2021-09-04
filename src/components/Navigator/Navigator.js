@@ -1,3 +1,4 @@
+import { Link } from "gatsby"
 import React from "react"
 import routes from "../../data/routes.json"
 
@@ -5,11 +6,11 @@ const Navigator = () => {
   return (
     <div className="navigator">
       {routes?.map(item => (
-        <a
+        <Link
+          to={`/${item.page}`}
           className="far fa-circle nav-item"
-          key={item.key}
-          href={`#${item.page}`}
-        ></a>
+          title={item.name}
+        />
       ))}
     </div>
   )
