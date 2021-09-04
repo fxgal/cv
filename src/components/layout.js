@@ -34,12 +34,10 @@ const Layout = ({ children }) => {
       <div className="row main-container">
         <div className="col-sm-12 col-md-4 left-col">
           <Sidebar />
+          <Footer />
         </div>
         <div className="col-sm-12 col-md-8 right-col">
-          <div>
-            {children}
-            <Footer />
-          </div>
+          <div>{children}</div>
         </div>
       </div>
     </>

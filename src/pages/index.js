@@ -7,28 +7,29 @@ import Seo from "../components/seo"
 const IndexPage = () => {
   const profile =
     "Capaz de aplicar y desarrollar las herramientas adecuadas para el tratamiento automatizado de la información en base a los conocimientos en las áreas tales como: sistemas, computación, ciencias básicas, organizacionales y administrativas. Sólidos conocimientos en herramientas de software y hardware, además de tener un alto valor ético en el manejo de la información."
-  const languages = ["Español", "Inglés"]
+  const languages = ["Español", "Inglés básico"]
   const aptitudes = [
-    "Liderazgo y comunicación",
     "Responsabilidad",
+    "Comunicación eficaz",
     "Toma de decisiones",
     "Observación y análisis",
-    "Planificación y modelado de",
+    "Planificación y modelado",
     "Creatividad",
     "Trabajo en equipo",
     "Trabajo bajo presión",
-    "Capacidad de adaptación rápida a cualquier lenguaje",
+    "Adaptación rápida a lenguages y tecnologías",
   ]
 
-  const knowedges = [
+  const skills = [
     "Web Developer Full Stack",
-    "Análisis y Desarrollo de Sistemas de Información",
-    "Análisis y modelado de bases de datos",
+    "Sistemas de Información",
+    "Modelado de bases de datos SQL y NoSQL",
     "Lenguajes de programación web",
     "Frameworks y librerías web",
-    "Desarrollo de Aplicaciones Móviles Hibridas",
-    "Desarrollo de APIs",
-    "Manejo de repositorios y control de versiones",
+    "Aplicaciones Móviles Hibridas",
+    "Realtime y websockets",
+    "API Rest",
+    "Repositorios y control de versiones",
   ]
 
   return (
@@ -72,11 +73,7 @@ const IndexPage = () => {
               />
             </div>
             <div className="col-md-6 col-sm-12">
-              <Section
-                icon="fas fa-bookmark"
-                title="Áreas de Conocimiento"
-                items={knowedges}
-              />
+              <Section icon="fas fa-bookmark" title="Skills" items={skills} />
             </div>
           </div>
         </div>

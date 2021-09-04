@@ -5,14 +5,9 @@
     "page": ""
   },
   {
-    "name": "Skills",
-    "key": "skills",
-    "page": "skills"
-  },
-  {
-    "name": "Aptitudes",
-    "key": "aptitudes",
-    "page": "aptitudes"
+    "name": "Technologies",
+    "key": "technologies",
+    "page": "technologies"
   },
   {
     "name": "Works",
@@ -20,14 +15,19 @@
     "page": "works"
   },
   {
-    "name": "Studies",
-    "key": "studies",
-    "page": "studies"
+    "name": "Portfolio",
+    "key": "portfolio",
+    "page": "portfolio"
   },
   {
     "name": "Academy",
     "key": "academy",
     "page": "academy"
+  },
+  {
+    "name": "Studies",
+    "key": "studies",
+    "page": "studies"
   },
   {
     "name": "Contact",
