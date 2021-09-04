@@ -28,7 +28,6 @@ const Studies = () => {
                       <i className="fas fa-link"></i>{" "}
                       <a
                         href="https://www.udemy.com/certificate/UC-X07NSI70/"
-                        target="_blank"
                       >
                         Certificado
                       </a>

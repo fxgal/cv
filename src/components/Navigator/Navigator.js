@@ -8,7 +8,9 @@ const Navigator = () => {
       {routes?.map(item => (
         <Link
           to={`/${item.page}`}
-          className="far fa-circle nav-item"
+          className={`far fa-circle nav-item active ${
+            window.location.pathname.includes(item.page) ? "active" : ""
+          }`}
           title={item.name}
         />
       ))}

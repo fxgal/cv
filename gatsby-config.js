@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Félix Galindo CV`,
     description: `CV`,
-    author: `@fxgal`,
+    author: `Félix Galindo`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
   plugins: [
@@ -21,7 +21,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `felix-galindo-cv`,
-        short_name: `starter`,
+        short_name: `fxgal`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
