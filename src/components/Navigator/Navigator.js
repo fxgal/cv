@@ -2,10 +2,10 @@ import { Link } from "gatsby"
 import React from "react"
 import routes from "../../data/routes.json"
 
-const Navigator = (props) => {
+const Navigator = () => {
   return (
     <div className="navigator">
-      {routes?.map(item => {
+      {routes?.map((item) => {
         return item.hidden ? (
           ""
         ) : (
@@ -14,6 +14,7 @@ const Navigator = (props) => {
             className={`nav-item`}
             title={item.name}
             activeClassName="active"
+            key={item.page}
           >
             {item.name}
           </Link>
