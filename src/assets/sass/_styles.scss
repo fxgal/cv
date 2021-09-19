@@ -75,15 +75,13 @@ h6 {
 /* --------------------------------------
  * LINK STYLE
  *------------------------------------------*/
-.custom-link{
-  color: #ffc107;
-  text-decoration: none;
+.custom-link, a{
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  text-decoration: none;
-  color: $warning-color;
+  text-decoration: none !important;
+  color: $warning-color !important;
 }
 
 .custom-link:active,
@@ -241,7 +239,7 @@ button:focus,
  *-------------------*/
 .section-wrapper {
   padding: 50px;
-  border-bottom: 1px solid #eaeaea;
+  // border-bottom: 1px solid #eaeaea;
 }
 
 @media (max-width: 480px) {
@@ -598,7 +596,6 @@ p {
 }
 .section-wrapper {
   padding-top: 0px !important;
-  background: url("../images/pattern-bg.png") fixed;
 }
 h2 {
   color: #b71c1c !important;
