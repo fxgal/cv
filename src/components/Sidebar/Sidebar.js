@@ -16,48 +16,54 @@ const Sidebar = () => {
       </div>
       <div className="content">
         <h1>Félix Galindo</h1>
-        <span className="lead">Ingeniero en Informática</span>
+        <span className="lead">Informatic Engineer</span>
 
         <div className="about-text">
           <div className="row">
             <div className="col-md-12">
               <address>
                 <strong>
-                  <i className="fas fa-map-marker"></i> Dirección
+                  <i className="fas fa-map-marker"></i> Address
                 </strong>
                 <br />
                 San Juan de Los Morros
                 <br />
                 Guárico, Venezuela
               </address>
-              <address>
+              {/* <address>
                 <strong>
-                  <i className="fas fa-phone-square"></i> Número Telefónico
+                  <i className="fas fa-phone-square"></i> Phone Number
                 </strong>
                 <br />
                 +58 412 536 0034
-              </address>
+              </address> */}
 
               <address>
                 <strong>
                   <i className="fas fa-envelope"></i> Email
                 </strong>
                 <br />
-                <a className="custom-link" href="mailto:fxgal.dev@gmail.com">fxgal.dev@gmail.com</a>
+                <a className="custom-link" href="mailto:fxgal.dev@gmail.com">
+                  fxgal.dev@gmail.com
+                </a>
               </address>
               <address>
                 <strong>
                   <i className="fab fa-telegram"></i> Telegram
                 </strong>
                 <br />
-                <a className="custom-link" href="https://t.me/fxgal">@fxgal</a>
+                <a className="custom-link" href="https://t.me/fxgal">
+                  @fxgal
+                </a>
               </address>
               <address>
                 <strong>
                   <i className="fab fa-whatsapp"></i> Whatsapp
                 </strong>
                 <br />
-                <a className="custom-link" href="https://wa.me/04125360034">Send</a>
+                <a className="custom-link" href="https://wa.me/04125360034">
+                  Send
+                </a>
               </address>
             </div>
           </div>
@@ -65,17 +71,38 @@ const Sidebar = () => {
 
         <ul className="social-icon">
           <li>
-            <a className="custom-link" href="https://github.com/fxgal" title="github">
+            <a
+              className="custom-link"
+              href="https://www.linkedin.com/in/fxgal/"
+              title="LinkedIn"
+            >
+              <i className="fab fa-linkedin" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              className="custom-link"
+              href="https://github.com/fxgal"
+              title="github"
+            >
               <i className="fab fa-github-alt" aria-hidden="true"></i>
             </a>
           </li>
           <li>
-            <a className="custom-link" href="https://bitbucket.org/fgalindo/" title="bitbucket">
+            <a
+              className="custom-link"
+              href="https://bitbucket.org/fgalindo/"
+              title="bitbucket"
+            >
               <i className="fab fa-bitbucket" aria-hidden="true"></i>
             </a>
           </li>
           <li>
-            <a className="custom-link" href="https://felixg.slack.com" title="slack">
+            <a
+              className="custom-link"
+              href="https://felixg.slack.com"
+              title="slack"
+            >
               <i className="fab fa-slack" aria-hidden="true"></i>
             </a>
           </li>
