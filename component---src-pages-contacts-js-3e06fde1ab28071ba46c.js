@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgatsby_starter_default=self.webpackChunkgatsby_starter_default||[]).push([[98],{4892:function(e,t,a){a.r(t);var l=a(7294),n=a(2874),s=a(3751);t.default=function(){return l.createElement(l.Fragment,null,l.createElement(s.Z,{title:"Contacts"}),l.createElement(n.Z,null,l.createElement("div",{"data-sal":"slide-up","data-sal-delay":"300","data-sal-easing":"ease"},l.createElement("span",null,"Contacts"))))}}}]);
+//# sourceMappingURL=component---src-pages-contacts-js-3e06fde1ab28071ba46c.js.map
