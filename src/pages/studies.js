@@ -13,7 +13,7 @@ const Studies = () => {
               <div className="col-md-12">
                 <div className="section-title">
                   <h2>
-                    <i className="far fa-bookmark"></i> Cursos
+                    <i className="far fa-bookmark"></i> Courses
                   </h2>
                 </div>
               </div>
@@ -26,10 +26,8 @@ const Studies = () => {
                   <ul className="list-group">
                     <li>
                       <i className="fas fa-link"></i>{" "}
-                      <a
-                        href="https://www.udemy.com/certificate/UC-X07NSI70/"
-                      >
-                        Certificado
+                      <a href="https://www.udemy.com/certificate/UC-X07NSI70/">
+                        Certified
                       </a>
                     </li>
                   </ul>
@@ -67,7 +65,7 @@ const Studies = () => {
               <div className="col-md-12">
                 <div className="section-title">
                   <h2>
-                    <i className="fas fa-certificate"></i> Certificados y
+                    <i className="fas fa-certificate"></i> Certificates and
                     Diplomas
                   </h2>
                 </div>

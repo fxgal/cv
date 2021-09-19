@@ -13,7 +13,7 @@ const Works = () => {
               <div class="col-md-12">
                 <div class="section-title">
                   <h2>
-                    <i class="fas fa-briefcase"></i> Experiencia Laboral
+                    <i class="fas fa-briefcase"></i> Works
                   </h2>
                 </div>
               </div>

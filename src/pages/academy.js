@@ -13,15 +13,14 @@ const Academy = () => {
               <div className="col-md-12">
                 <div className="section-title">
                   <h2>
-                    <i className="fas fa-graduation-cap"></i> Formación
-                    Académica Profesional
+                    <i className="fas fa-graduation-cap"></i> University studies
                   </h2>
                 </div>
               </div>
               <div className="col-md-12">
                 <div className="content-item">
                   <small>2015 - 2020</small>
-                  <h3>Doctorado en Ciencias de la Educación</h3>
+                  <h3>Doctor en Ciencias de la Educación</h3>
                   <h4>Universidad Rómulo Gallegos</h4>
                   <p>San Juan de Los Morros, Venezuela</p>
                 </div>
