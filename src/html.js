@@ -24,10 +24,10 @@ export default function HTML(props) {
         />
         {props.postBodyComponents}
 
-        <script src="static/js/jquery-2.1.4.min.js"></script>
-        <script src="static/js/bootstrap.min.js"></script>
-        <script src="static/js/theia-sticky-sidebar.js"></script>
-        <script src="static/js/scripts.js"></script>
+        <script src="js/jquery-2.1.4.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/theia-sticky-sidebar.js"></script>
+        <script src="js/scripts.js"></script>
       </body>
     </html>
   )

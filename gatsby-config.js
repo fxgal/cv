@@ -3,7 +3,7 @@ module.exports = {
     title: `Félix Galindo CV`,
     description: `CV`,
     author: `Félix Galindo`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    siteUrl: `https://fxgal.github.io/cv/`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
