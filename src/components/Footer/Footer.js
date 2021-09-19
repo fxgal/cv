@@ -9,7 +9,9 @@ const Footer = () => {
             <div className="col-md-12">
               <div className="copytext">
                 &copy; Félix Galindo. All rights reserved | Design By:{" "}
-                <a href="https://themehippo.com">themehippo</a>
+                <a className="custom-link" href="https://themehippo.com">
+                  themehippo
+                </a>
               </div>
             </div>
           </div>

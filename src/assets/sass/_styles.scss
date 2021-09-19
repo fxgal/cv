@@ -75,25 +75,26 @@ h6 {
 /* --------------------------------------
  * LINK STYLE
  *------------------------------------------*/
-a {
+.custom-link{
   color: #ffc107;
   text-decoration: none;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+  text-decoration: none;
+  color: $warning-color;
 }
 
-a,
-a:active,
-a:focus,
-a:active {
+.custom-link:active,
+.custom-link:focus,
+.custom-link:active {
   text-decoration: none;
   outline: none;
 }
 
-a:hover,
-a:focus {
+.custom-link:hover,
+.custom-link:focus {
   text-decoration: none;
   color: #ff9800;
 }
@@ -330,23 +331,6 @@ button:focus,
   li {
     display: inline-block;
     margin: 0 2px;
-    a {
-      display: block;
-      font-size: 12px;
-      color: $warning-color !important;
-      width: 34px;
-      height: 34px;
-      line-height: 33px;
-      text-align: center;
-      border-radius: 2px;
-      border: 2px solid #eeeeee;
-      &:hover {
-        border-color: #cccccc;
-      }
-      &:visited {
-        border-color: #cccccc;
-      }
-    }
   }
 }
 
@@ -519,6 +503,7 @@ button:focus,
 .footer .copyright-section .copytext {
   font-weight: 400;
   display: block;
+  color: $warning-color;
 }
 
 @media (max-width: 480px) {
@@ -622,8 +607,4 @@ h2 {
   padding: 0px !important;
   margin-top: 0px;
   margin-bottom: 0px;
-}
-a{
-  text-decoration: none !important;
-  color: $warning-color !important;
 }

@@ -17,18 +17,29 @@
 }
 
 .navigator {
-  position: sticky;
-  margin: 40px 0px 20px 0px;
-  width: 100%;
   display: flex;
+  flex-wrap: wrap;
+  // position: sticky;
+  // margin: 40px 0px 20px 0px;
+  // width: 100%;
+  // display: flex;
   justify-content: center;
   .nav-item {
     list-style: none;
     color: $red-color;
     padding: 5px;
+    background-color: $white-color;
+    text-decoration: none;
+    border-radius: 50rem;
+    font-size: small;
+    margin: 1px;
   }
   .nav-item:hover {
     animation: rubberBand 1s;
+  }
+  .nav-item:active {
+    animation: rubberBand 1s;
+    background-color: $warning-color;
   }
 }
 @media (min-width: 768px) {
